@@ -1,0 +1,14 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "first electron",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mayur Thosar",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.7.5"
+  }
+}
