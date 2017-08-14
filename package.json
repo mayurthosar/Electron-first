@@ -4,11 +4,17 @@
   "description": "first electron",
   "main": "app.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package":"",
+    "build":"electron-packager . FirstApp"
   },
   "author": "Mayur Thosar",
   "license": "ISC",
   "dependencies": {
     "electron": "^1.7.5"
+  },
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron-packager": "^8.7.2"
   }
 }
